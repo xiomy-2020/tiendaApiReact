@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#imagen{
+  width: 700px;
+  height: 700px;
+}
+#tabla{
+  margin: auto;
+  margin-top: 20px;
+}
+.card{
+  background:black;
+}
+#fondoBG{
+  background-image: url("/public/portal.jpg");
+  background-size: cover; 
 }

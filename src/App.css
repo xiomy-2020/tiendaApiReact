@@ -2,17 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position:center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.principal{
+  background-image: none;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,9 +20,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
+}
+#imagen{
+  width: 150px;
+  height: 150px;   
+}
+#fondoBG{
+  background-image: url("/public/portal.jpg");
+  background-size: cover; 
+  width: 500px;
+  height: 500px;
 }
 
 @keyframes App-logo-spin {
